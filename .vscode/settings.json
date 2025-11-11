@@ -1,0 +1,25 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/build": true,
+    },
+    "files.insertFinalNewline": true,
+    "[python]": {
+        "editor.rulers": [
+            90,
+            120
+        ]
+    },
+    "python.analysis.extraPaths": [
+        "../../pynnlib",
+        "../../hytils",
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportAssignmentType": "none",
+        "reportArgumentType": "none",
+        "reportOptionalMemberAccess": "none",
+        "reportCallIssue": "none",
+        "reportAttributeAccessIssue": "none",
+    }
+}
