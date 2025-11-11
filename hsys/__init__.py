@@ -46,7 +46,7 @@ from .gpu.devices import (
 )
 from .gpu.types import (
     BrandGpu,
-    FpDtype,
+    Hdtype,
     VendorId,
 
     AmdGpu,
@@ -88,7 +88,7 @@ __all__ = [
     "ram_usage",
     "free_ram",
 
-    "FpDtype",
+    "Hdtype",
     "VendorId",
 
     "AmdGpu",
